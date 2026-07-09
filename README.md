@@ -9,6 +9,11 @@ code can call any `helix/*` function and see prior definitions.
 
 Note that evaluated code shares the global namespace and can shadow bindings.
 
+## Demo
+
+![An asciinema recording of evaluating code with the results in the eval.hx
+buffer](https://github.com/waddie/eval.hx/blob/main/images/demo.gif?raw=true)
+
 ## Commands
 
 - `:hx-eval-selection` - Evaluate the primary selection.
@@ -21,7 +26,7 @@ prompt, the value, or a commented error block.
 
 ## Install
 
-```
+```sh
 forge pkg install --git https://github.com/waddie/eval.hx
 ```
 
