@@ -19,7 +19,7 @@
 ;;;   (require "eval.hx/eval.scm")
 
 (define package-name 'eval.hx)
-(define version "0.1.0")
+(define version "0.2.0")
 
 ;; repl-ui.hx: shared scratch-buffer, formatting, counter and selection
 ;; machinery (also used by nrepl.hx). Pure Scheme, no dylib.
@@ -28,4 +28,4 @@
      #:git-url
      "https://github.com/waddie/repl-ui.hx"
      #:sha
-     "8d21aee4114222f0ce708d1c146598a1ce7ae621")))
+     "f274c26b23424929a38949c8e47fb2826e9eb2cb")))
